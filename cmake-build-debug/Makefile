@@ -111,19 +111,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named hello_world
-
-# Build rule for target.
-hello_world: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 hello_world
-.PHONY : hello_world
-
-# fast build rule for target.
-hello_world/fast:
-	$(MAKE) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/build
-.PHONY : hello_world/fast
-
-#=============================================================================
 # Target rules for targets named adding_array_elements
 
 # Build rule for target.
@@ -135,6 +122,32 @@ adding_array_elements: cmake_check_build_system
 adding_array_elements/fast:
 	$(MAKE) -f CMakeFiles/adding_array_elements.dir/build.make CMakeFiles/adding_array_elements.dir/build
 .PHONY : adding_array_elements/fast
+
+#=============================================================================
+# Target rules for targets named matrix_addition
+
+# Build rule for target.
+matrix_addition: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 matrix_addition
+.PHONY : matrix_addition
+
+# fast build rule for target.
+matrix_addition/fast:
+	$(MAKE) -f CMakeFiles/matrix_addition.dir/build.make CMakeFiles/matrix_addition.dir/build
+.PHONY : matrix_addition/fast
+
+#=============================================================================
+# Target rules for targets named hello_world
+
+# Build rule for target.
+hello_world: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hello_world
+.PHONY : hello_world
+
+# fast build rule for target.
+hello_world/fast:
+	$(MAKE) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/build
+.PHONY : hello_world/fast
 
 #=============================================================================
 # Target rules for targets named data_structure
@@ -209,6 +222,36 @@ hello_world.cpp.s:
 	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/hello_world.cpp.s
 .PHONY : hello_world.cpp.s
 
+matrix_addition.o: matrix_addition.cpp.o
+
+.PHONY : matrix_addition.o
+
+# target to build an object file
+matrix_addition.cpp.o:
+	$(MAKE) -f CMakeFiles/matrix_addition.dir/build.make CMakeFiles/matrix_addition.dir/matrix_addition.cpp.o
+	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/matrix_addition.cpp.o
+.PHONY : matrix_addition.cpp.o
+
+matrix_addition.i: matrix_addition.cpp.i
+
+.PHONY : matrix_addition.i
+
+# target to preprocess a source file
+matrix_addition.cpp.i:
+	$(MAKE) -f CMakeFiles/matrix_addition.dir/build.make CMakeFiles/matrix_addition.dir/matrix_addition.cpp.i
+	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/matrix_addition.cpp.i
+.PHONY : matrix_addition.cpp.i
+
+matrix_addition.s: matrix_addition.cpp.s
+
+.PHONY : matrix_addition.s
+
+# target to generate assembly for a file
+matrix_addition.cpp.s:
+	$(MAKE) -f CMakeFiles/matrix_addition.dir/build.make CMakeFiles/matrix_addition.dir/matrix_addition.cpp.s
+	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/matrix_addition.cpp.s
+.PHONY : matrix_addition.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -217,8 +260,9 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... hello_world"
 	@echo "... adding_array_elements"
+	@echo "... matrix_addition"
+	@echo "... hello_world"
 	@echo "... data_structure"
 	@echo "... adding_array_elements.o"
 	@echo "... adding_array_elements.i"
@@ -226,6 +270,9 @@ help:
 	@echo "... hello_world.o"
 	@echo "... hello_world.i"
 	@echo "... hello_world.s"
+	@echo "... matrix_addition.o"
+	@echo "... matrix_addition.i"
+	@echo "... matrix_addition.s"
 .PHONY : help
 
 

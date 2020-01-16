@@ -52,7 +52,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/hello_world.dir/DependInfo.cmake"
   "CMakeFiles/adding_array_elements.dir/DependInfo.cmake"
+  "CMakeFiles/matrix_addition.dir/DependInfo.cmake"
+  "CMakeFiles/hello_world.dir/DependInfo.cmake"
   "CMakeFiles/data_structure.dir/DependInfo.cmake"
   )
