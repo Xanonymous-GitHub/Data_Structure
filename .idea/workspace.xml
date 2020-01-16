@@ -13,26 +13,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14ca12b2-1a3c-470b-8029-63d56c688a4a" name="Default Changelist" comment="hello_world.cpp,adding_array_elements.cpp">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adding_array_elements.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/data_structure.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/data_structure.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/data_structure.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/data_structure.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/data_structure.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/data_structure.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/data_structure.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/data_structure.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/data_structure.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/data_structure.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/data_structure.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/data_structure.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data_structure.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/data_structure.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/hello_world.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="14ca12b2-1a3c-470b-8029-63d56c688a4a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,7 +62,7 @@
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="CMake Application.data_structure">
+  <component name="RunManager" selected="CMake Application.hello_world">
     <configuration name="adding_array_elements" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="data_structure" TARGET_NAME="adding_array_elements" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="data_structure" RUN_TARGET_NAME="adding_array_elements">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -127,7 +108,7 @@
       <updated>1579141700644</updated>
       <workItem from="1579141704705" duration="25000" />
       <workItem from="1579142139748" duration="1097000" />
-      <workItem from="1579143247804" duration="2577000" />
+      <workItem from="1579143247804" duration="2829000" />
     </task>
     <servers />
   </component>
@@ -145,22 +126,22 @@
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
     <state x="383" y="65" key="CommitChangelistDialog2/0.23.1792.1026@0.23.1792.1026" timestamp="1579146090115" />
-    <state width="1740" height="266" key="GridCell.Tab.0.bottom" timestamp="1579146084528">
+    <state width="1740" height="266" key="GridCell.Tab.0.bottom" timestamp="1579146451675">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
-    <state width="1740" height="266" key="GridCell.Tab.0.bottom/0.23.1792.1026@0.23.1792.1026" timestamp="1579146084528" />
-    <state width="1740" height="266" key="GridCell.Tab.0.center" timestamp="1579146084527">
+    <state width="1740" height="266" key="GridCell.Tab.0.bottom/0.23.1792.1026@0.23.1792.1026" timestamp="1579146451675" />
+    <state width="1740" height="266" key="GridCell.Tab.0.center" timestamp="1579146451674">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
-    <state width="1740" height="266" key="GridCell.Tab.0.center/0.23.1792.1026@0.23.1792.1026" timestamp="1579146084527" />
-    <state width="1740" height="266" key="GridCell.Tab.0.left" timestamp="1579146084527">
+    <state width="1740" height="266" key="GridCell.Tab.0.center/0.23.1792.1026@0.23.1792.1026" timestamp="1579146451674" />
+    <state width="1740" height="266" key="GridCell.Tab.0.left" timestamp="1579146451673">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
-    <state width="1740" height="266" key="GridCell.Tab.0.left/0.23.1792.1026@0.23.1792.1026" timestamp="1579146084527" />
-    <state width="1740" height="266" key="GridCell.Tab.0.right" timestamp="1579146084527">
+    <state width="1740" height="266" key="GridCell.Tab.0.left/0.23.1792.1026@0.23.1792.1026" timestamp="1579146451673" />
+    <state width="1740" height="266" key="GridCell.Tab.0.right" timestamp="1579146451675">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
-    <state width="1740" height="266" key="GridCell.Tab.0.right/0.23.1792.1026@0.23.1792.1026" timestamp="1579146084527" />
+    <state width="1740" height="266" key="GridCell.Tab.0.right/0.23.1792.1026@0.23.1792.1026" timestamp="1579146451675" />
     <state width="1740" height="330" key="GridCell.Tab.1.bottom" timestamp="1579145834530">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
