@@ -57,30 +57,135 @@ include CMakeFiles/data_structure.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/data_structure.dir/flags.make
 
-CMakeFiles/data_structure.dir/main.cpp.o: CMakeFiles/data_structure.dir/flags.make
-CMakeFiles/data_structure.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xanonymous/Desktop/data_structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/data_structure.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/data_structure.dir/main.cpp.o -c /Users/xanonymous/Desktop/data_structure/main.cpp
+CMakeFiles/data_structure.dir/hello_world.cpp.o: CMakeFiles/data_structure.dir/flags.make
+CMakeFiles/data_structure.dir/hello_world.cpp.o: ../hello_world.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xanonymous/Desktop/data_structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/data_structure.dir/hello_world.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/data_structure.dir/hello_world.cpp.o -c /Users/xanonymous/Desktop/data_structure/hello_world.cpp
 
-CMakeFiles/data_structure.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/data_structure.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xanonymous/Desktop/data_structure/main.cpp > CMakeFiles/data_structure.dir/main.cpp.i
+CMakeFiles/data_structure.dir/hello_world.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/data_structure.dir/hello_world.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xanonymous/Desktop/data_structure/hello_world.cpp > CMakeFiles/data_structure.dir/hello_world.cpp.i
 
-CMakeFiles/data_structure.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/data_structure.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xanonymous/Desktop/data_structure/main.cpp -o CMakeFiles/data_structure.dir/main.cpp.s
+CMakeFiles/data_structure.dir/hello_world.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/data_structure.dir/hello_world.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xanonymous/Desktop/data_structure/hello_world.cpp -o CMakeFiles/data_structure.dir/hello_world.cpp.s
+
+CMakeFiles/data_structure.dir/adding_array_elements.cpp.o: CMakeFiles/data_structure.dir/flags.make
+CMakeFiles/data_structure.dir/adding_array_elements.cpp.o: ../adding_array_elements.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xanonymous/Desktop/data_structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/data_structure.dir/adding_array_elements.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/data_structure.dir/adding_array_elements.cpp.o -c /Users/xanonymous/Desktop/data_structure/adding_array_elements.cpp
+
+CMakeFiles/data_structure.dir/adding_array_elements.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/data_structure.dir/adding_array_elements.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xanonymous/Desktop/data_structure/adding_array_elements.cpp > CMakeFiles/data_structure.dir/adding_array_elements.cpp.i
+
+CMakeFiles/data_structure.dir/adding_array_elements.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/data_structure.dir/adding_array_elements.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xanonymous/Desktop/data_structure/adding_array_elements.cpp -o CMakeFiles/data_structure.dir/adding_array_elements.cpp.s
+
+CMakeFiles/data_structure.dir/matrix_addition.cpp.o: CMakeFiles/data_structure.dir/flags.make
+CMakeFiles/data_structure.dir/matrix_addition.cpp.o: ../matrix_addition.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xanonymous/Desktop/data_structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/data_structure.dir/matrix_addition.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/data_structure.dir/matrix_addition.cpp.o -c /Users/xanonymous/Desktop/data_structure/matrix_addition.cpp
+
+CMakeFiles/data_structure.dir/matrix_addition.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/data_structure.dir/matrix_addition.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xanonymous/Desktop/data_structure/matrix_addition.cpp > CMakeFiles/data_structure.dir/matrix_addition.cpp.i
+
+CMakeFiles/data_structure.dir/matrix_addition.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/data_structure.dir/matrix_addition.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xanonymous/Desktop/data_structure/matrix_addition.cpp -o CMakeFiles/data_structure.dir/matrix_addition.cpp.s
+
+CMakeFiles/data_structure.dir/eight_queen_for_fun_xd.cpp.o: CMakeFiles/data_structure.dir/flags.make
+CMakeFiles/data_structure.dir/eight_queen_for_fun_xd.cpp.o: ../eight_queen_for_fun_xd.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xanonymous/Desktop/data_structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/data_structure.dir/eight_queen_for_fun_xd.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/data_structure.dir/eight_queen_for_fun_xd.cpp.o -c /Users/xanonymous/Desktop/data_structure/eight_queen_for_fun_xd.cpp
+
+CMakeFiles/data_structure.dir/eight_queen_for_fun_xd.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/data_structure.dir/eight_queen_for_fun_xd.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xanonymous/Desktop/data_structure/eight_queen_for_fun_xd.cpp > CMakeFiles/data_structure.dir/eight_queen_for_fun_xd.cpp.i
+
+CMakeFiles/data_structure.dir/eight_queen_for_fun_xd.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/data_structure.dir/eight_queen_for_fun_xd.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xanonymous/Desktop/data_structure/eight_queen_for_fun_xd.cpp -o CMakeFiles/data_structure.dir/eight_queen_for_fun_xd.cpp.s
+
+CMakeFiles/data_structure.dir/matrix_multiplication.cpp.o: CMakeFiles/data_structure.dir/flags.make
+CMakeFiles/data_structure.dir/matrix_multiplication.cpp.o: ../matrix_multiplication.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xanonymous/Desktop/data_structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/data_structure.dir/matrix_multiplication.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/data_structure.dir/matrix_multiplication.cpp.o -c /Users/xanonymous/Desktop/data_structure/matrix_multiplication.cpp
+
+CMakeFiles/data_structure.dir/matrix_multiplication.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/data_structure.dir/matrix_multiplication.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xanonymous/Desktop/data_structure/matrix_multiplication.cpp > CMakeFiles/data_structure.dir/matrix_multiplication.cpp.i
+
+CMakeFiles/data_structure.dir/matrix_multiplication.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/data_structure.dir/matrix_multiplication.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xanonymous/Desktop/data_structure/matrix_multiplication.cpp -o CMakeFiles/data_structure.dir/matrix_multiplication.cpp.s
+
+CMakeFiles/data_structure.dir/sequential_search.cpp.o: CMakeFiles/data_structure.dir/flags.make
+CMakeFiles/data_structure.dir/sequential_search.cpp.o: ../sequential_search.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xanonymous/Desktop/data_structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/data_structure.dir/sequential_search.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/data_structure.dir/sequential_search.cpp.o -c /Users/xanonymous/Desktop/data_structure/sequential_search.cpp
+
+CMakeFiles/data_structure.dir/sequential_search.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/data_structure.dir/sequential_search.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xanonymous/Desktop/data_structure/sequential_search.cpp > CMakeFiles/data_structure.dir/sequential_search.cpp.i
+
+CMakeFiles/data_structure.dir/sequential_search.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/data_structure.dir/sequential_search.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xanonymous/Desktop/data_structure/sequential_search.cpp -o CMakeFiles/data_structure.dir/sequential_search.cpp.s
+
+CMakeFiles/data_structure.dir/binsrch.cpp.o: CMakeFiles/data_structure.dir/flags.make
+CMakeFiles/data_structure.dir/binsrch.cpp.o: ../binsrch.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xanonymous/Desktop/data_structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/data_structure.dir/binsrch.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/data_structure.dir/binsrch.cpp.o -c /Users/xanonymous/Desktop/data_structure/binsrch.cpp
+
+CMakeFiles/data_structure.dir/binsrch.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/data_structure.dir/binsrch.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xanonymous/Desktop/data_structure/binsrch.cpp > CMakeFiles/data_structure.dir/binsrch.cpp.i
+
+CMakeFiles/data_structure.dir/binsrch.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/data_structure.dir/binsrch.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xanonymous/Desktop/data_structure/binsrch.cpp -o CMakeFiles/data_structure.dir/binsrch.cpp.s
+
+CMakeFiles/data_structure.dir/fibonacci.cpp.o: CMakeFiles/data_structure.dir/flags.make
+CMakeFiles/data_structure.dir/fibonacci.cpp.o: ../fibonacci.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xanonymous/Desktop/data_structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/data_structure.dir/fibonacci.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/data_structure.dir/fibonacci.cpp.o -c /Users/xanonymous/Desktop/data_structure/fibonacci.cpp
+
+CMakeFiles/data_structure.dir/fibonacci.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/data_structure.dir/fibonacci.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xanonymous/Desktop/data_structure/fibonacci.cpp > CMakeFiles/data_structure.dir/fibonacci.cpp.i
+
+CMakeFiles/data_structure.dir/fibonacci.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/data_structure.dir/fibonacci.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xanonymous/Desktop/data_structure/fibonacci.cpp -o CMakeFiles/data_structure.dir/fibonacci.cpp.s
 
 # Object files for target data_structure
 data_structure_OBJECTS = \
-"CMakeFiles/data_structure.dir/main.cpp.o"
+"CMakeFiles/data_structure.dir/hello_world.cpp.o" \
+"CMakeFiles/data_structure.dir/adding_array_elements.cpp.o" \
+"CMakeFiles/data_structure.dir/matrix_addition.cpp.o" \
+"CMakeFiles/data_structure.dir/eight_queen_for_fun_xd.cpp.o" \
+"CMakeFiles/data_structure.dir/matrix_multiplication.cpp.o" \
+"CMakeFiles/data_structure.dir/sequential_search.cpp.o" \
+"CMakeFiles/data_structure.dir/binsrch.cpp.o" \
+"CMakeFiles/data_structure.dir/fibonacci.cpp.o"
 
 # External object files for target data_structure
 data_structure_EXTERNAL_OBJECTS =
 
-data_structure: CMakeFiles/data_structure.dir/main.cpp.o
+data_structure: CMakeFiles/data_structure.dir/hello_world.cpp.o
+data_structure: CMakeFiles/data_structure.dir/adding_array_elements.cpp.o
+data_structure: CMakeFiles/data_structure.dir/matrix_addition.cpp.o
+data_structure: CMakeFiles/data_structure.dir/eight_queen_for_fun_xd.cpp.o
+data_structure: CMakeFiles/data_structure.dir/matrix_multiplication.cpp.o
+data_structure: CMakeFiles/data_structure.dir/sequential_search.cpp.o
+data_structure: CMakeFiles/data_structure.dir/binsrch.cpp.o
+data_structure: CMakeFiles/data_structure.dir/fibonacci.cpp.o
 data_structure: CMakeFiles/data_structure.dir/build.make
 data_structure: CMakeFiles/data_structure.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/xanonymous/Desktop/data_structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable data_structure"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/xanonymous/Desktop/data_structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable data_structure"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/data_structure.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

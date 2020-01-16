@@ -2,16 +2,38 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
+      <config projectName="data_structure" targetName="matrix_multiplication" />
+      <config projectName="data_structure" targetName="matrix_addition" />
+      <config projectName="data_structure" targetName="eight_queen_for_fun_xd" />
+      <config projectName="data_structure" targetName="hello_world" />
+      <config projectName="data_structure" targetName="adding_array_elements" />
       <config projectName="data_structure" targetName="data_structure" />
     </generated>
   </component>
-  <component name="CMakeSettings">
+  <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14ca12b2-1a3c-470b-8029-63d56c688a4a" name="Default Changelist" comment="" />
+    <list default="true" id="14ca12b2-1a3c-470b-8029-63d56c688a4a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/fibonacci.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/data_structure.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/data_structure.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/data_structure.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/data_structure.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/data_structure.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/data_structure.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/data_structure.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/data_structure.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/data_structure.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/data_structure.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eight_queen_for_fun_xd.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eight_queen_for_fun_xd.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hello_world.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hello_world.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/matrix_addition.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/matrix_addition.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/matrix_multiplication.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/matrix_multiplication.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data_structure.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/data_structure.cbp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,11 +42,37 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="CswXnTnr" />
   </component>
+  <component name="OCResolveContextSettings">
+    <option name="configuration" value="0-Debug-data_structure" />
+  </component>
   <component name="ProjectId" id="1WSSrPt5lq3rFuzw10iWyiCZDIR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -32,14 +80,50 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="CMake Application.eight_queen_for_fun_xd">
+    <configuration name="adding_array_elements" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="data_structure" TARGET_NAME="adding_array_elements" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="data_structure" RUN_TARGET_NAME="adding_array_elements">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="data_structure" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="data_structure" TARGET_NAME="data_structure" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="data_structure" RUN_TARGET_NAME="data_structure">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="eight_queen_for_fun_xd" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="data_structure" TARGET_NAME="eight_queen_for_fun_xd" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="data_structure" RUN_TARGET_NAME="eight_queen_for_fun_xd">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hello_world" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="data_structure" TARGET_NAME="hello_world" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="data_structure" RUN_TARGET_NAME="hello_world">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="matrix_addition" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="data_structure" TARGET_NAME="matrix_addition" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="data_structure" RUN_TARGET_NAME="matrix_addition">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="matrix_multiplication" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="data_structure" TARGET_NAME="matrix_multiplication" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="data_structure" RUN_TARGET_NAME="matrix_multiplication">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.adding_array_elements" />
+      <item itemvalue="CMake Application.data_structure" />
+      <item itemvalue="CMake Application.eight_queen_for_fun_xd" />
+      <item itemvalue="CMake Application.hello_world" />
+      <item itemvalue="CMake Application.matrix_addition" />
+      <item itemvalue="CMake Application.matrix_multiplication" />
+    </list>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -64,16 +148,94 @@
       <option name="presentableId" value="Default" />
       <updated>1579141700644</updated>
       <workItem from="1579141704705" duration="25000" />
+      <workItem from="1579142139748" duration="1097000" />
+      <workItem from="1579143247804" duration="9882000" />
+      <workItem from="1579170071063" duration="36000" />
     </task>
+    <task id="LOCAL-00001" summary="setup clion runner">
+      <created>1579146472688</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579146472688</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="hello_world.cpp,adding_array_elements.cpp" />
+    <MESSAGE value="setup clion runner" />
+    <MESSAGE value="matrix_addition.cpp" />
+    <MESSAGE value="eight_queen_for_fun_xd.cpp" />
+    <MESSAGE value="sequential_search" />
+    <MESSAGE value="binsrch" />
+    <option name="LAST_COMMIT_MESSAGE" value="binsrch" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="492" y="331" key="com.intellij.ide.util.TipDialog" timestamp="1579141704375">
-      <screen x="0" y="23" width="1792" height="1028" />
+    <state x="396" y="120" key="#Notifications" timestamp="1579168088263">
+      <screen x="0" y="23" width="1792" height="1026" />
     </state>
+    <state x="396" y="120" key="#Notifications/0.23.1792.1026@0.23.1792.1026" timestamp="1579168088263" />
+    <state x="383" y="65" key="CommitChangelistDialog2" timestamp="1579170196023">
+      <screen x="0" y="23" width="1792" height="1024" />
+    </state>
+    <state x="383" y="65" key="CommitChangelistDialog2/0.23.1792.1024@0.23.1792.1024" timestamp="1579170196023" />
+    <state x="383" y="65" key="CommitChangelistDialog2/0.23.1792.1026@0.23.1792.1026" timestamp="1579167690423" />
+    <state width="1740" height="266" key="GridCell.Tab.0.bottom" timestamp="1579148960836">
+      <screen x="0" y="23" width="1792" height="1026" />
+    </state>
+    <state width="1740" height="266" key="GridCell.Tab.0.bottom/0.23.1792.1026@0.23.1792.1026" timestamp="1579148960836" />
+    <state width="1740" height="266" key="GridCell.Tab.0.center" timestamp="1579148960835">
+      <screen x="0" y="23" width="1792" height="1026" />
+    </state>
+    <state width="1740" height="266" key="GridCell.Tab.0.center/0.23.1792.1026@0.23.1792.1026" timestamp="1579148960835" />
+    <state width="1740" height="266" key="GridCell.Tab.0.left" timestamp="1579148960835">
+      <screen x="0" y="23" width="1792" height="1026" />
+    </state>
+    <state width="1740" height="266" key="GridCell.Tab.0.left/0.23.1792.1026@0.23.1792.1026" timestamp="1579148960835" />
+    <state width="1740" height="266" key="GridCell.Tab.0.right" timestamp="1579148960835">
+      <screen x="0" y="23" width="1792" height="1026" />
+    </state>
+    <state width="1740" height="266" key="GridCell.Tab.0.right/0.23.1792.1026@0.23.1792.1026" timestamp="1579148960835" />
+    <state width="1740" height="330" key="GridCell.Tab.1.bottom" timestamp="1579145834530">
+      <screen x="0" y="23" width="1792" height="1026" />
+    </state>
+    <state width="1740" height="330" key="GridCell.Tab.1.bottom/0.23.1792.1026@0.23.1792.1026" timestamp="1579145834530" />
+    <state width="1740" height="330" key="GridCell.Tab.1.center" timestamp="1579145834530">
+      <screen x="0" y="23" width="1792" height="1026" />
+    </state>
+    <state width="1740" height="330" key="GridCell.Tab.1.center/0.23.1792.1026@0.23.1792.1026" timestamp="1579145834530" />
+    <state width="1740" height="330" key="GridCell.Tab.1.left" timestamp="1579145834530">
+      <screen x="0" y="23" width="1792" height="1026" />
+    </state>
+    <state width="1740" height="330" key="GridCell.Tab.1.left/0.23.1792.1026@0.23.1792.1026" timestamp="1579145834530" />
+    <state width="1740" height="330" key="GridCell.Tab.1.right" timestamp="1579145834530">
+      <screen x="0" y="23" width="1792" height="1026" />
+    </state>
+    <state width="1740" height="330" key="GridCell.Tab.1.right/0.23.1792.1026@0.23.1792.1026" timestamp="1579145834530" />
+    <state x="314" y="77" key="SettingsEditor" timestamp="1579170106747">
+      <screen x="0" y="23" width="1792" height="1024" />
+    </state>
+    <state x="314" y="77" key="SettingsEditor/0.23.1792.1024@0.23.1792.1024" timestamp="1579170106747" />
+    <state x="281" y="87" key="SettingsEditor/0.23.1792.1026@0.23.1792.1026" timestamp="1579143239288" />
+    <state x="396" y="213" key="Vcs.Push.Dialog.v2" timestamp="1579146501243">
+      <screen x="0" y="23" width="1792" height="1026" />
+    </state>
+    <state x="396" y="213" key="Vcs.Push.Dialog.v2/0.23.1792.1026@0.23.1792.1026" timestamp="1579146501243" />
+    <state x="492" y="329" key="com.intellij.ide.util.TipDialog" timestamp="1579170122291">
+      <screen x="0" y="23" width="1792" height="1024" />
+    </state>
+    <state x="492" y="329" key="com.intellij.ide.util.TipDialog/0.23.1792.1024@0.23.1792.1024" timestamp="1579170122291" />
+    <state x="492" y="330" key="com.intellij.ide.util.TipDialog/0.23.1792.1026@0.23.1792.1026" timestamp="1579143250441" />
     <state x="492" y="331" key="com.intellij.ide.util.TipDialog/0.23.1792.1028@0.23.1792.1028" timestamp="1579141704375" />
+    <state x="477" y="23" width="838" height="1032" key="search.everywhere.popup" timestamp="1579148108389">
+      <screen x="0" y="23" width="1792" height="1026" />
+    </state>
+    <state x="477" y="23" width="838" height="1032" key="search.everywhere.popup/0.23.1792.1026@0.23.1792.1026" timestamp="1579148108389" />
   </component>
 </project>

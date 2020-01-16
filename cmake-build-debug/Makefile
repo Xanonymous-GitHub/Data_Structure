@@ -111,6 +111,71 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named eight_queen_for_fun_xd
+
+# Build rule for target.
+eight_queen_for_fun_xd: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 eight_queen_for_fun_xd
+.PHONY : eight_queen_for_fun_xd
+
+# fast build rule for target.
+eight_queen_for_fun_xd/fast:
+	$(MAKE) -f CMakeFiles/eight_queen_for_fun_xd.dir/build.make CMakeFiles/eight_queen_for_fun_xd.dir/build
+.PHONY : eight_queen_for_fun_xd/fast
+
+#=============================================================================
+# Target rules for targets named adding_array_elements
+
+# Build rule for target.
+adding_array_elements: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 adding_array_elements
+.PHONY : adding_array_elements
+
+# fast build rule for target.
+adding_array_elements/fast:
+	$(MAKE) -f CMakeFiles/adding_array_elements.dir/build.make CMakeFiles/adding_array_elements.dir/build
+.PHONY : adding_array_elements/fast
+
+#=============================================================================
+# Target rules for targets named matrix_addition
+
+# Build rule for target.
+matrix_addition: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 matrix_addition
+.PHONY : matrix_addition
+
+# fast build rule for target.
+matrix_addition/fast:
+	$(MAKE) -f CMakeFiles/matrix_addition.dir/build.make CMakeFiles/matrix_addition.dir/build
+.PHONY : matrix_addition/fast
+
+#=============================================================================
+# Target rules for targets named matrix_multiplication
+
+# Build rule for target.
+matrix_multiplication: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 matrix_multiplication
+.PHONY : matrix_multiplication
+
+# fast build rule for target.
+matrix_multiplication/fast:
+	$(MAKE) -f CMakeFiles/matrix_multiplication.dir/build.make CMakeFiles/matrix_multiplication.dir/build
+.PHONY : matrix_multiplication/fast
+
+#=============================================================================
+# Target rules for targets named hello_world
+
+# Build rule for target.
+hello_world: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hello_world
+.PHONY : hello_world
+
+# fast build rule for target.
+hello_world/fast:
+	$(MAKE) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/build
+.PHONY : hello_world/fast
+
+#=============================================================================
 # Target rules for targets named data_structure
 
 # Build rule for target.
@@ -123,32 +188,236 @@ data_structure/fast:
 	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/build
 .PHONY : data_structure/fast
 
-main.o: main.cpp.o
+adding_array_elements.o: adding_array_elements.cpp.o
 
-.PHONY : main.o
+.PHONY : adding_array_elements.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/main.cpp.o
-.PHONY : main.cpp.o
+adding_array_elements.cpp.o:
+	$(MAKE) -f CMakeFiles/adding_array_elements.dir/build.make CMakeFiles/adding_array_elements.dir/adding_array_elements.cpp.o
+	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/adding_array_elements.cpp.o
+.PHONY : adding_array_elements.cpp.o
 
-main.i: main.cpp.i
+adding_array_elements.i: adding_array_elements.cpp.i
 
-.PHONY : main.i
+.PHONY : adding_array_elements.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/main.cpp.i
-.PHONY : main.cpp.i
+adding_array_elements.cpp.i:
+	$(MAKE) -f CMakeFiles/adding_array_elements.dir/build.make CMakeFiles/adding_array_elements.dir/adding_array_elements.cpp.i
+	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/adding_array_elements.cpp.i
+.PHONY : adding_array_elements.cpp.i
 
-main.s: main.cpp.s
+adding_array_elements.s: adding_array_elements.cpp.s
 
-.PHONY : main.s
+.PHONY : adding_array_elements.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/main.cpp.s
-.PHONY : main.cpp.s
+adding_array_elements.cpp.s:
+	$(MAKE) -f CMakeFiles/adding_array_elements.dir/build.make CMakeFiles/adding_array_elements.dir/adding_array_elements.cpp.s
+	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/adding_array_elements.cpp.s
+.PHONY : adding_array_elements.cpp.s
+
+binsrch.o: binsrch.cpp.o
+
+.PHONY : binsrch.o
+
+# target to build an object file
+binsrch.cpp.o:
+	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/binsrch.cpp.o
+.PHONY : binsrch.cpp.o
+
+binsrch.i: binsrch.cpp.i
+
+.PHONY : binsrch.i
+
+# target to preprocess a source file
+binsrch.cpp.i:
+	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/binsrch.cpp.i
+.PHONY : binsrch.cpp.i
+
+binsrch.s: binsrch.cpp.s
+
+.PHONY : binsrch.s
+
+# target to generate assembly for a file
+binsrch.cpp.s:
+	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/binsrch.cpp.s
+.PHONY : binsrch.cpp.s
+
+eight_queen_for_fun_xd.o: eight_queen_for_fun_xd.cpp.o
+
+.PHONY : eight_queen_for_fun_xd.o
+
+# target to build an object file
+eight_queen_for_fun_xd.cpp.o:
+	$(MAKE) -f CMakeFiles/eight_queen_for_fun_xd.dir/build.make CMakeFiles/eight_queen_for_fun_xd.dir/eight_queen_for_fun_xd.cpp.o
+	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/eight_queen_for_fun_xd.cpp.o
+.PHONY : eight_queen_for_fun_xd.cpp.o
+
+eight_queen_for_fun_xd.i: eight_queen_for_fun_xd.cpp.i
+
+.PHONY : eight_queen_for_fun_xd.i
+
+# target to preprocess a source file
+eight_queen_for_fun_xd.cpp.i:
+	$(MAKE) -f CMakeFiles/eight_queen_for_fun_xd.dir/build.make CMakeFiles/eight_queen_for_fun_xd.dir/eight_queen_for_fun_xd.cpp.i
+	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/eight_queen_for_fun_xd.cpp.i
+.PHONY : eight_queen_for_fun_xd.cpp.i
+
+eight_queen_for_fun_xd.s: eight_queen_for_fun_xd.cpp.s
+
+.PHONY : eight_queen_for_fun_xd.s
+
+# target to generate assembly for a file
+eight_queen_for_fun_xd.cpp.s:
+	$(MAKE) -f CMakeFiles/eight_queen_for_fun_xd.dir/build.make CMakeFiles/eight_queen_for_fun_xd.dir/eight_queen_for_fun_xd.cpp.s
+	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/eight_queen_for_fun_xd.cpp.s
+.PHONY : eight_queen_for_fun_xd.cpp.s
+
+fibonacci.o: fibonacci.cpp.o
+
+.PHONY : fibonacci.o
+
+# target to build an object file
+fibonacci.cpp.o:
+	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/fibonacci.cpp.o
+.PHONY : fibonacci.cpp.o
+
+fibonacci.i: fibonacci.cpp.i
+
+.PHONY : fibonacci.i
+
+# target to preprocess a source file
+fibonacci.cpp.i:
+	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/fibonacci.cpp.i
+.PHONY : fibonacci.cpp.i
+
+fibonacci.s: fibonacci.cpp.s
+
+.PHONY : fibonacci.s
+
+# target to generate assembly for a file
+fibonacci.cpp.s:
+	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/fibonacci.cpp.s
+.PHONY : fibonacci.cpp.s
+
+hello_world.o: hello_world.cpp.o
+
+.PHONY : hello_world.o
+
+# target to build an object file
+hello_world.cpp.o:
+	$(MAKE) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/hello_world.cpp.o
+	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/hello_world.cpp.o
+.PHONY : hello_world.cpp.o
+
+hello_world.i: hello_world.cpp.i
+
+.PHONY : hello_world.i
+
+# target to preprocess a source file
+hello_world.cpp.i:
+	$(MAKE) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/hello_world.cpp.i
+	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/hello_world.cpp.i
+.PHONY : hello_world.cpp.i
+
+hello_world.s: hello_world.cpp.s
+
+.PHONY : hello_world.s
+
+# target to generate assembly for a file
+hello_world.cpp.s:
+	$(MAKE) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/hello_world.cpp.s
+	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/hello_world.cpp.s
+.PHONY : hello_world.cpp.s
+
+matrix_addition.o: matrix_addition.cpp.o
+
+.PHONY : matrix_addition.o
+
+# target to build an object file
+matrix_addition.cpp.o:
+	$(MAKE) -f CMakeFiles/matrix_addition.dir/build.make CMakeFiles/matrix_addition.dir/matrix_addition.cpp.o
+	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/matrix_addition.cpp.o
+.PHONY : matrix_addition.cpp.o
+
+matrix_addition.i: matrix_addition.cpp.i
+
+.PHONY : matrix_addition.i
+
+# target to preprocess a source file
+matrix_addition.cpp.i:
+	$(MAKE) -f CMakeFiles/matrix_addition.dir/build.make CMakeFiles/matrix_addition.dir/matrix_addition.cpp.i
+	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/matrix_addition.cpp.i
+.PHONY : matrix_addition.cpp.i
+
+matrix_addition.s: matrix_addition.cpp.s
+
+.PHONY : matrix_addition.s
+
+# target to generate assembly for a file
+matrix_addition.cpp.s:
+	$(MAKE) -f CMakeFiles/matrix_addition.dir/build.make CMakeFiles/matrix_addition.dir/matrix_addition.cpp.s
+	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/matrix_addition.cpp.s
+.PHONY : matrix_addition.cpp.s
+
+matrix_multiplication.o: matrix_multiplication.cpp.o
+
+.PHONY : matrix_multiplication.o
+
+# target to build an object file
+matrix_multiplication.cpp.o:
+	$(MAKE) -f CMakeFiles/matrix_multiplication.dir/build.make CMakeFiles/matrix_multiplication.dir/matrix_multiplication.cpp.o
+	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/matrix_multiplication.cpp.o
+.PHONY : matrix_multiplication.cpp.o
+
+matrix_multiplication.i: matrix_multiplication.cpp.i
+
+.PHONY : matrix_multiplication.i
+
+# target to preprocess a source file
+matrix_multiplication.cpp.i:
+	$(MAKE) -f CMakeFiles/matrix_multiplication.dir/build.make CMakeFiles/matrix_multiplication.dir/matrix_multiplication.cpp.i
+	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/matrix_multiplication.cpp.i
+.PHONY : matrix_multiplication.cpp.i
+
+matrix_multiplication.s: matrix_multiplication.cpp.s
+
+.PHONY : matrix_multiplication.s
+
+# target to generate assembly for a file
+matrix_multiplication.cpp.s:
+	$(MAKE) -f CMakeFiles/matrix_multiplication.dir/build.make CMakeFiles/matrix_multiplication.dir/matrix_multiplication.cpp.s
+	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/matrix_multiplication.cpp.s
+.PHONY : matrix_multiplication.cpp.s
+
+sequential_search.o: sequential_search.cpp.o
+
+.PHONY : sequential_search.o
+
+# target to build an object file
+sequential_search.cpp.o:
+	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/sequential_search.cpp.o
+.PHONY : sequential_search.cpp.o
+
+sequential_search.i: sequential_search.cpp.i
+
+.PHONY : sequential_search.i
+
+# target to preprocess a source file
+sequential_search.cpp.i:
+	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/sequential_search.cpp.i
+.PHONY : sequential_search.cpp.i
+
+sequential_search.s: sequential_search.cpp.s
+
+.PHONY : sequential_search.s
+
+# target to generate assembly for a file
+sequential_search.cpp.s:
+	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/sequential_search.cpp.s
+.PHONY : sequential_search.cpp.s
 
 # Help Target
 help:
@@ -158,10 +427,36 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... eight_queen_for_fun_xd"
+	@echo "... adding_array_elements"
+	@echo "... matrix_addition"
+	@echo "... matrix_multiplication"
+	@echo "... hello_world"
 	@echo "... data_structure"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... adding_array_elements.o"
+	@echo "... adding_array_elements.i"
+	@echo "... adding_array_elements.s"
+	@echo "... binsrch.o"
+	@echo "... binsrch.i"
+	@echo "... binsrch.s"
+	@echo "... eight_queen_for_fun_xd.o"
+	@echo "... eight_queen_for_fun_xd.i"
+	@echo "... eight_queen_for_fun_xd.s"
+	@echo "... fibonacci.o"
+	@echo "... fibonacci.i"
+	@echo "... fibonacci.s"
+	@echo "... hello_world.o"
+	@echo "... hello_world.i"
+	@echo "... hello_world.s"
+	@echo "... matrix_addition.o"
+	@echo "... matrix_addition.i"
+	@echo "... matrix_addition.s"
+	@echo "... matrix_multiplication.o"
+	@echo "... matrix_multiplication.i"
+	@echo "... matrix_multiplication.s"
+	@echo "... sequential_search.o"
+	@echo "... sequential_search.i"
+	@echo "... sequential_search.s"
 .PHONY : help
 
 

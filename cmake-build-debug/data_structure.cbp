@@ -37,6 +37,216 @@
 					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/xanonymous/Desktop/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="eight_queen_for_fun_xd">
+				<Option output="/Users/xanonymous/Desktop/data_structure/cmake-build-debug/eight_queen_for_fun_xd" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xanonymous/Desktop/data_structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/xanonymous/Desktop/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 eight_queen_for_fun_xd"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/xanonymous/Desktop/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/xanonymous/Desktop/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/xanonymous/Desktop/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="eight_queen_for_fun_xd/fast">
+				<Option output="/Users/xanonymous/Desktop/data_structure/cmake-build-debug/eight_queen_for_fun_xd" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xanonymous/Desktop/data_structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/xanonymous/Desktop/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 eight_queen_for_fun_xd/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/xanonymous/Desktop/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/xanonymous/Desktop/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/xanonymous/Desktop/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="adding_array_elements">
+				<Option output="/Users/xanonymous/Desktop/data_structure/cmake-build-debug/adding_array_elements" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xanonymous/Desktop/data_structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/xanonymous/Desktop/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 adding_array_elements"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/xanonymous/Desktop/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/xanonymous/Desktop/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/xanonymous/Desktop/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="adding_array_elements/fast">
+				<Option output="/Users/xanonymous/Desktop/data_structure/cmake-build-debug/adding_array_elements" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xanonymous/Desktop/data_structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/xanonymous/Desktop/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 adding_array_elements/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/xanonymous/Desktop/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/xanonymous/Desktop/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/xanonymous/Desktop/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="matrix_addition">
+				<Option output="/Users/xanonymous/Desktop/data_structure/cmake-build-debug/matrix_addition" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xanonymous/Desktop/data_structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/xanonymous/Desktop/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 matrix_addition"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/xanonymous/Desktop/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/xanonymous/Desktop/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/xanonymous/Desktop/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="matrix_addition/fast">
+				<Option output="/Users/xanonymous/Desktop/data_structure/cmake-build-debug/matrix_addition" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xanonymous/Desktop/data_structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/xanonymous/Desktop/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 matrix_addition/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/xanonymous/Desktop/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/xanonymous/Desktop/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/xanonymous/Desktop/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="matrix_multiplication">
+				<Option output="/Users/xanonymous/Desktop/data_structure/cmake-build-debug/matrix_multiplication" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xanonymous/Desktop/data_structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/xanonymous/Desktop/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 matrix_multiplication"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/xanonymous/Desktop/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/xanonymous/Desktop/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/xanonymous/Desktop/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="matrix_multiplication/fast">
+				<Option output="/Users/xanonymous/Desktop/data_structure/cmake-build-debug/matrix_multiplication" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xanonymous/Desktop/data_structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/xanonymous/Desktop/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 matrix_multiplication/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/xanonymous/Desktop/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/xanonymous/Desktop/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/xanonymous/Desktop/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_world">
+				<Option output="/Users/xanonymous/Desktop/data_structure/cmake-build-debug/hello_world" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xanonymous/Desktop/data_structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/xanonymous/Desktop/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_world"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/xanonymous/Desktop/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/xanonymous/Desktop/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/xanonymous/Desktop/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_world/fast">
+				<Option output="/Users/xanonymous/Desktop/data_structure/cmake-build-debug/hello_world" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xanonymous/Desktop/data_structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/xanonymous/Desktop/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_world/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/xanonymous/Desktop/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/xanonymous/Desktop/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/xanonymous/Desktop/data_structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="data_structure">
 				<Option output="/Users/xanonymous/Desktop/data_structure/cmake-build-debug/data_structure" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/xanonymous/Desktop/data_structure/cmake-build-debug"/>
@@ -80,7 +290,33 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/xanonymous/Desktop/data_structure/main.cpp">
+		<Unit filename="/Users/xanonymous/Desktop/data_structure/adding_array_elements.cpp">
+			<Option target="adding_array_elements"/>
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="/Users/xanonymous/Desktop/data_structure/binsrch.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="/Users/xanonymous/Desktop/data_structure/eight_queen_for_fun_xd.cpp">
+			<Option target="eight_queen_for_fun_xd"/>
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="/Users/xanonymous/Desktop/data_structure/fibonacci.cpp">
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="/Users/xanonymous/Desktop/data_structure/hello_world.cpp">
+			<Option target="hello_world"/>
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="/Users/xanonymous/Desktop/data_structure/matrix_addition.cpp">
+			<Option target="matrix_addition"/>
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="/Users/xanonymous/Desktop/data_structure/matrix_multiplication.cpp">
+			<Option target="matrix_multiplication"/>
+			<Option target="data_structure"/>
+		</Unit>
+		<Unit filename="/Users/xanonymous/Desktop/data_structure/sequential_search.cpp">
 			<Option target="data_structure"/>
 		</Unit>
 		<Unit filename="/Users/xanonymous/Desktop/data_structure/CMakeLists.txt">
