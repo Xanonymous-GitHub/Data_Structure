@@ -2,12 +2,12 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="data_structure" targetName="data_structure" />
-      <config projectName="data_structure" targetName="hello_world" />
-      <config projectName="data_structure" targetName="matrix_addition" />
-      <config projectName="data_structure" targetName="adding_array_elements" />
-      <config projectName="data_structure" targetName="eight_queen_for_fun_xd" />
       <config projectName="data_structure" targetName="matrix_multiplication" />
+      <config projectName="data_structure" targetName="matrix_addition" />
+      <config projectName="data_structure" targetName="eight_queen_for_fun_xd" />
+      <config projectName="data_structure" targetName="hello_world" />
+      <config projectName="data_structure" targetName="adding_array_elements" />
+      <config projectName="data_structure" targetName="data_structure" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -17,7 +17,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14ca12b2-1a3c-470b-8029-63d56c688a4a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/binsrch.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fibonacci.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
@@ -83,7 +83,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="CMake Application.eight_queen_for_fun_xd">
     <configuration name="adding_array_elements" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="data_structure" TARGET_NAME="adding_array_elements" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="data_structure" RUN_TARGET_NAME="adding_array_elements">
@@ -149,7 +149,8 @@
       <updated>1579141700644</updated>
       <workItem from="1579141704705" duration="25000" />
       <workItem from="1579142139748" duration="1097000" />
-      <workItem from="1579143247804" duration="9129000" />
+      <workItem from="1579143247804" duration="9882000" />
+      <workItem from="1579170071063" duration="36000" />
     </task>
     <task id="LOCAL-00001" summary="setup clion runner">
       <created>1579146472688</created>
@@ -171,7 +172,8 @@
     <MESSAGE value="matrix_addition.cpp" />
     <MESSAGE value="eight_queen_for_fun_xd.cpp" />
     <MESSAGE value="sequential_search" />
-    <option name="LAST_COMMIT_MESSAGE" value="sequential_search" />
+    <MESSAGE value="binsrch" />
+    <option name="LAST_COMMIT_MESSAGE" value="binsrch" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -179,10 +181,10 @@
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
     <state x="396" y="120" key="#Notifications/0.23.1792.1026@0.23.1792.1026" timestamp="1579168088263" />
-    <state x="383" y="65" key="CommitChangelistDialog2" timestamp="1579169507857">
+    <state x="383" y="65" key="CommitChangelistDialog2" timestamp="1579170196023">
       <screen x="0" y="23" width="1792" height="1024" />
     </state>
-    <state x="383" y="65" key="CommitChangelistDialog2/0.23.1792.1024@0.23.1792.1024" timestamp="1579169507857" />
+    <state x="383" y="65" key="CommitChangelistDialog2/0.23.1792.1024@0.23.1792.1024" timestamp="1579170196023" />
     <state x="383" y="65" key="CommitChangelistDialog2/0.23.1792.1026@0.23.1792.1026" timestamp="1579167690423" />
     <state width="1740" height="266" key="GridCell.Tab.0.bottom" timestamp="1579148960836">
       <screen x="0" y="23" width="1792" height="1026" />
@@ -216,18 +218,19 @@
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
     <state width="1740" height="330" key="GridCell.Tab.1.right/0.23.1792.1026@0.23.1792.1026" timestamp="1579145834530" />
-    <state x="314" y="77" key="SettingsEditor" timestamp="1579169251060">
+    <state x="314" y="77" key="SettingsEditor" timestamp="1579170106747">
       <screen x="0" y="23" width="1792" height="1024" />
     </state>
-    <state x="314" y="77" key="SettingsEditor/0.23.1792.1024@0.23.1792.1024" timestamp="1579169251060" />
+    <state x="314" y="77" key="SettingsEditor/0.23.1792.1024@0.23.1792.1024" timestamp="1579170106747" />
     <state x="281" y="87" key="SettingsEditor/0.23.1792.1026@0.23.1792.1026" timestamp="1579143239288" />
     <state x="396" y="213" key="Vcs.Push.Dialog.v2" timestamp="1579146501243">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
     <state x="396" y="213" key="Vcs.Push.Dialog.v2/0.23.1792.1026@0.23.1792.1026" timestamp="1579146501243" />
-    <state x="492" y="330" key="com.intellij.ide.util.TipDialog" timestamp="1579143250441">
-      <screen x="0" y="23" width="1792" height="1026" />
+    <state x="492" y="329" key="com.intellij.ide.util.TipDialog" timestamp="1579170122291">
+      <screen x="0" y="23" width="1792" height="1024" />
     </state>
+    <state x="492" y="329" key="com.intellij.ide.util.TipDialog/0.23.1792.1024@0.23.1792.1024" timestamp="1579170122291" />
     <state x="492" y="330" key="com.intellij.ide.util.TipDialog/0.23.1792.1026@0.23.1792.1026" timestamp="1579143250441" />
     <state x="492" y="331" key="com.intellij.ide.util.TipDialog/0.23.1792.1028@0.23.1792.1028" timestamp="1579141704375" />
     <state x="477" y="23" width="838" height="1032" key="search.everywhere.popup" timestamp="1579148108389">

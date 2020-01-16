@@ -275,6 +275,33 @@ eight_queen_for_fun_xd.cpp.s:
 	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/eight_queen_for_fun_xd.cpp.s
 .PHONY : eight_queen_for_fun_xd.cpp.s
 
+fibonacci.o: fibonacci.cpp.o
+
+.PHONY : fibonacci.o
+
+# target to build an object file
+fibonacci.cpp.o:
+	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/fibonacci.cpp.o
+.PHONY : fibonacci.cpp.o
+
+fibonacci.i: fibonacci.cpp.i
+
+.PHONY : fibonacci.i
+
+# target to preprocess a source file
+fibonacci.cpp.i:
+	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/fibonacci.cpp.i
+.PHONY : fibonacci.cpp.i
+
+fibonacci.s: fibonacci.cpp.s
+
+.PHONY : fibonacci.s
+
+# target to generate assembly for a file
+fibonacci.cpp.s:
+	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/fibonacci.cpp.s
+.PHONY : fibonacci.cpp.s
+
 hello_world.o: hello_world.cpp.o
 
 .PHONY : hello_world.o
@@ -415,6 +442,9 @@ help:
 	@echo "... eight_queen_for_fun_xd.o"
 	@echo "... eight_queen_for_fun_xd.i"
 	@echo "... eight_queen_for_fun_xd.s"
+	@echo "... fibonacci.o"
+	@echo "... fibonacci.i"
+	@echo "... fibonacci.s"
 	@echo "... hello_world.o"
 	@echo "... hello_world.i"
 	@echo "... hello_world.s"
