@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/xanonymous/Desktop/data_structure/eight_queen_for_fun_xd.cpp" "/Users/xanonymous/Desktop/data_structure/cmake-build-debug/CMakeFiles/data_structure.dir/eight_queen_for_fun_xd.cpp.o"
   "/Users/xanonymous/Desktop/data_structure/hello_world.cpp" "/Users/xanonymous/Desktop/data_structure/cmake-build-debug/CMakeFiles/data_structure.dir/hello_world.cpp.o"
   "/Users/xanonymous/Desktop/data_structure/matrix_addition.cpp" "/Users/xanonymous/Desktop/data_structure/cmake-build-debug/CMakeFiles/data_structure.dir/matrix_addition.cpp.o"
+  "/Users/xanonymous/Desktop/data_structure/matrix_multiplication.cpp" "/Users/xanonymous/Desktop/data_structure/cmake-build-debug/CMakeFiles/data_structure.dir/matrix_multiplication.cpp.o"
+  "/Users/xanonymous/Desktop/data_structure/sequential_search.cpp" "/Users/xanonymous/Desktop/data_structure/cmake-build-debug/CMakeFiles/data_structure.dir/sequential_search.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

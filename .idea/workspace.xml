@@ -7,6 +7,7 @@
       <config projectName="data_structure" targetName="matrix_addition" />
       <config projectName="data_structure" targetName="adding_array_elements" />
       <config projectName="data_structure" targetName="eight_queen_for_fun_xd" />
+      <config projectName="data_structure" targetName="matrix_multiplication" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -15,9 +16,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14ca12b2-1a3c-470b-8029-63d56c688a4a" name="Default Changelist" comment="eight_queen_for_fun_xd.cpp">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/xanonymous.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eight_queen_for_fun_xd.cpp" afterDir="false" />
+    <list default="true" id="14ca12b2-1a3c-470b-8029-63d56c688a4a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/matrix_multiplication.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sequential_search.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
@@ -28,6 +29,7 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/data_structure.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/data_structure.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/data_structure.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/data_structure.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/data_structure.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/data_structure.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eight_queen_for_fun_xd.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eight_queen_for_fun_xd.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hello_world.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hello_world.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/matrix_addition.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/matrix_addition.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
@@ -67,6 +69,9 @@
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="CswXnTnr" />
+  </component>
+  <component name="OCResolveContextSettings">
+    <option name="configuration" value="0-Debug-data_structure" />
   </component>
   <component name="ProjectId" id="1WSSrPt5lq3rFuzw10iWyiCZDIR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -108,12 +113,18 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="matrix_multiplication" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="data_structure" TARGET_NAME="matrix_multiplication" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="data_structure" RUN_TARGET_NAME="matrix_multiplication">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="CMake Application.adding_array_elements" />
       <item itemvalue="CMake Application.data_structure" />
       <item itemvalue="CMake Application.eight_queen_for_fun_xd" />
       <item itemvalue="CMake Application.hello_world" />
       <item itemvalue="CMake Application.matrix_addition" />
+      <item itemvalue="CMake Application.matrix_multiplication" />
     </list>
   </component>
   <component name="ServiceViewManager">
@@ -140,7 +151,7 @@
       <updated>1579141700644</updated>
       <workItem from="1579141704705" duration="25000" />
       <workItem from="1579142139748" duration="1097000" />
-      <workItem from="1579143247804" duration="5497000" />
+      <workItem from="1579143247804" duration="7797000" />
     </task>
     <task id="LOCAL-00001" summary="setup clion runner">
       <created>1579146472688</created>
@@ -165,10 +176,10 @@
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="383" y="65" key="CommitChangelistDialog2" timestamp="1579149111874">
+    <state x="383" y="65" key="CommitChangelistDialog2" timestamp="1579167690423">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
-    <state x="383" y="65" key="CommitChangelistDialog2/0.23.1792.1026@0.23.1792.1026" timestamp="1579149111874" />
+    <state x="383" y="65" key="CommitChangelistDialog2/0.23.1792.1026@0.23.1792.1026" timestamp="1579167690423" />
     <state width="1740" height="266" key="GridCell.Tab.0.bottom" timestamp="1579148960836">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>

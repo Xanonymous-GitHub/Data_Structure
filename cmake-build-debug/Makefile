@@ -150,6 +150,19 @@ matrix_addition/fast:
 .PHONY : matrix_addition/fast
 
 #=============================================================================
+# Target rules for targets named matrix_multiplication
+
+# Build rule for target.
+matrix_multiplication: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 matrix_multiplication
+.PHONY : matrix_multiplication
+
+# fast build rule for target.
+matrix_multiplication/fast:
+	$(MAKE) -f CMakeFiles/matrix_multiplication.dir/build.make CMakeFiles/matrix_multiplication.dir/build
+.PHONY : matrix_multiplication/fast
+
+#=============================================================================
 # Target rules for targets named hello_world
 
 # Build rule for target.
@@ -295,6 +308,63 @@ matrix_addition.cpp.s:
 	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/matrix_addition.cpp.s
 .PHONY : matrix_addition.cpp.s
 
+matrix_multiplication.o: matrix_multiplication.cpp.o
+
+.PHONY : matrix_multiplication.o
+
+# target to build an object file
+matrix_multiplication.cpp.o:
+	$(MAKE) -f CMakeFiles/matrix_multiplication.dir/build.make CMakeFiles/matrix_multiplication.dir/matrix_multiplication.cpp.o
+	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/matrix_multiplication.cpp.o
+.PHONY : matrix_multiplication.cpp.o
+
+matrix_multiplication.i: matrix_multiplication.cpp.i
+
+.PHONY : matrix_multiplication.i
+
+# target to preprocess a source file
+matrix_multiplication.cpp.i:
+	$(MAKE) -f CMakeFiles/matrix_multiplication.dir/build.make CMakeFiles/matrix_multiplication.dir/matrix_multiplication.cpp.i
+	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/matrix_multiplication.cpp.i
+.PHONY : matrix_multiplication.cpp.i
+
+matrix_multiplication.s: matrix_multiplication.cpp.s
+
+.PHONY : matrix_multiplication.s
+
+# target to generate assembly for a file
+matrix_multiplication.cpp.s:
+	$(MAKE) -f CMakeFiles/matrix_multiplication.dir/build.make CMakeFiles/matrix_multiplication.dir/matrix_multiplication.cpp.s
+	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/matrix_multiplication.cpp.s
+.PHONY : matrix_multiplication.cpp.s
+
+sequential_search.o: sequential_search.cpp.o
+
+.PHONY : sequential_search.o
+
+# target to build an object file
+sequential_search.cpp.o:
+	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/sequential_search.cpp.o
+.PHONY : sequential_search.cpp.o
+
+sequential_search.i: sequential_search.cpp.i
+
+.PHONY : sequential_search.i
+
+# target to preprocess a source file
+sequential_search.cpp.i:
+	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/sequential_search.cpp.i
+.PHONY : sequential_search.cpp.i
+
+sequential_search.s: sequential_search.cpp.s
+
+.PHONY : sequential_search.s
+
+# target to generate assembly for a file
+sequential_search.cpp.s:
+	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/sequential_search.cpp.s
+.PHONY : sequential_search.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -306,6 +376,7 @@ help:
 	@echo "... eight_queen_for_fun_xd"
 	@echo "... adding_array_elements"
 	@echo "... matrix_addition"
+	@echo "... matrix_multiplication"
 	@echo "... hello_world"
 	@echo "... data_structure"
 	@echo "... adding_array_elements.o"
@@ -320,6 +391,12 @@ help:
 	@echo "... matrix_addition.o"
 	@echo "... matrix_addition.i"
 	@echo "... matrix_addition.s"
+	@echo "... matrix_multiplication.o"
+	@echo "... matrix_multiplication.i"
+	@echo "... matrix_multiplication.s"
+	@echo "... sequential_search.o"
+	@echo "... sequential_search.i"
+	@echo "... sequential_search.s"
 .PHONY : help
 
 
