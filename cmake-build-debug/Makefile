@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named hello_world
+
+# Build rule for target.
+hello_world: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hello_world
+.PHONY : hello_world
+
+# fast build rule for target.
+hello_world/fast:
+	$(MAKE) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/build
+.PHONY : hello_world/fast
+
+#=============================================================================
+# Target rules for targets named adding_array_elements
+
+# Build rule for target.
+adding_array_elements: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 adding_array_elements
+.PHONY : adding_array_elements
+
+# fast build rule for target.
+adding_array_elements/fast:
+	$(MAKE) -f CMakeFiles/adding_array_elements.dir/build.make CMakeFiles/adding_array_elements.dir/build
+.PHONY : adding_array_elements/fast
+
+#=============================================================================
 # Target rules for targets named data_structure
 
 # Build rule for target.
@@ -123,32 +149,65 @@ data_structure/fast:
 	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/build
 .PHONY : data_structure/fast
 
-main.o: main.cpp.o
+adding_array_elements.o: adding_array_elements.cpp.o
 
-.PHONY : main.o
+.PHONY : adding_array_elements.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/main.cpp.o
-.PHONY : main.cpp.o
+adding_array_elements.cpp.o:
+	$(MAKE) -f CMakeFiles/adding_array_elements.dir/build.make CMakeFiles/adding_array_elements.dir/adding_array_elements.cpp.o
+	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/adding_array_elements.cpp.o
+.PHONY : adding_array_elements.cpp.o
 
-main.i: main.cpp.i
+adding_array_elements.i: adding_array_elements.cpp.i
 
-.PHONY : main.i
+.PHONY : adding_array_elements.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/main.cpp.i
-.PHONY : main.cpp.i
+adding_array_elements.cpp.i:
+	$(MAKE) -f CMakeFiles/adding_array_elements.dir/build.make CMakeFiles/adding_array_elements.dir/adding_array_elements.cpp.i
+	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/adding_array_elements.cpp.i
+.PHONY : adding_array_elements.cpp.i
 
-main.s: main.cpp.s
+adding_array_elements.s: adding_array_elements.cpp.s
 
-.PHONY : main.s
+.PHONY : adding_array_elements.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/main.cpp.s
-.PHONY : main.cpp.s
+adding_array_elements.cpp.s:
+	$(MAKE) -f CMakeFiles/adding_array_elements.dir/build.make CMakeFiles/adding_array_elements.dir/adding_array_elements.cpp.s
+	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/adding_array_elements.cpp.s
+.PHONY : adding_array_elements.cpp.s
+
+hello_world.o: hello_world.cpp.o
+
+.PHONY : hello_world.o
+
+# target to build an object file
+hello_world.cpp.o:
+	$(MAKE) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/hello_world.cpp.o
+	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/hello_world.cpp.o
+.PHONY : hello_world.cpp.o
+
+hello_world.i: hello_world.cpp.i
+
+.PHONY : hello_world.i
+
+# target to preprocess a source file
+hello_world.cpp.i:
+	$(MAKE) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/hello_world.cpp.i
+	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/hello_world.cpp.i
+.PHONY : hello_world.cpp.i
+
+hello_world.s: hello_world.cpp.s
+
+.PHONY : hello_world.s
+
+# target to generate assembly for a file
+hello_world.cpp.s:
+	$(MAKE) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/hello_world.cpp.s
+	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/hello_world.cpp.s
+.PHONY : hello_world.cpp.s
 
 # Help Target
 help:
@@ -158,10 +217,15 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... hello_world"
+	@echo "... adding_array_elements"
 	@echo "... data_structure"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... adding_array_elements.o"
+	@echo "... adding_array_elements.i"
+	@echo "... adding_array_elements.s"
+	@echo "... hello_world.o"
+	@echo "... hello_world.i"
+	@echo "... hello_world.s"
 .PHONY : help
 
 

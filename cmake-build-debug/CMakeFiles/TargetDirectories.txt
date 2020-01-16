@@ -1,3 +1,5 @@
 /Users/xanonymous/Desktop/data_structure/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/xanonymous/Desktop/data_structure/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/xanonymous/Desktop/data_structure/cmake-build-debug/CMakeFiles/hello_world.dir
+/Users/xanonymous/Desktop/data_structure/cmake-build-debug/CMakeFiles/adding_array_elements.dir
 /Users/xanonymous/Desktop/data_structure/cmake-build-debug/CMakeFiles/data_structure.dir

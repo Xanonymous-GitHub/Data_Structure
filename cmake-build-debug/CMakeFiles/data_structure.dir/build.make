@@ -57,30 +57,45 @@ include CMakeFiles/data_structure.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/data_structure.dir/flags.make
 
-CMakeFiles/data_structure.dir/main.cpp.o: CMakeFiles/data_structure.dir/flags.make
-CMakeFiles/data_structure.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xanonymous/Desktop/data_structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/data_structure.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/data_structure.dir/main.cpp.o -c /Users/xanonymous/Desktop/data_structure/main.cpp
+CMakeFiles/data_structure.dir/hello_world.cpp.o: CMakeFiles/data_structure.dir/flags.make
+CMakeFiles/data_structure.dir/hello_world.cpp.o: ../hello_world.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xanonymous/Desktop/data_structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/data_structure.dir/hello_world.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/data_structure.dir/hello_world.cpp.o -c /Users/xanonymous/Desktop/data_structure/hello_world.cpp
 
-CMakeFiles/data_structure.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/data_structure.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xanonymous/Desktop/data_structure/main.cpp > CMakeFiles/data_structure.dir/main.cpp.i
+CMakeFiles/data_structure.dir/hello_world.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/data_structure.dir/hello_world.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xanonymous/Desktop/data_structure/hello_world.cpp > CMakeFiles/data_structure.dir/hello_world.cpp.i
 
-CMakeFiles/data_structure.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/data_structure.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xanonymous/Desktop/data_structure/main.cpp -o CMakeFiles/data_structure.dir/main.cpp.s
+CMakeFiles/data_structure.dir/hello_world.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/data_structure.dir/hello_world.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xanonymous/Desktop/data_structure/hello_world.cpp -o CMakeFiles/data_structure.dir/hello_world.cpp.s
+
+CMakeFiles/data_structure.dir/adding_array_elements.cpp.o: CMakeFiles/data_structure.dir/flags.make
+CMakeFiles/data_structure.dir/adding_array_elements.cpp.o: ../adding_array_elements.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xanonymous/Desktop/data_structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/data_structure.dir/adding_array_elements.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/data_structure.dir/adding_array_elements.cpp.o -c /Users/xanonymous/Desktop/data_structure/adding_array_elements.cpp
+
+CMakeFiles/data_structure.dir/adding_array_elements.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/data_structure.dir/adding_array_elements.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xanonymous/Desktop/data_structure/adding_array_elements.cpp > CMakeFiles/data_structure.dir/adding_array_elements.cpp.i
+
+CMakeFiles/data_structure.dir/adding_array_elements.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/data_structure.dir/adding_array_elements.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xanonymous/Desktop/data_structure/adding_array_elements.cpp -o CMakeFiles/data_structure.dir/adding_array_elements.cpp.s
 
 # Object files for target data_structure
 data_structure_OBJECTS = \
-"CMakeFiles/data_structure.dir/main.cpp.o"
+"CMakeFiles/data_structure.dir/hello_world.cpp.o" \
+"CMakeFiles/data_structure.dir/adding_array_elements.cpp.o"
 
 # External object files for target data_structure
 data_structure_EXTERNAL_OBJECTS =
 
-data_structure: CMakeFiles/data_structure.dir/main.cpp.o
+data_structure: CMakeFiles/data_structure.dir/hello_world.cpp.o
+data_structure: CMakeFiles/data_structure.dir/adding_array_elements.cpp.o
 data_structure: CMakeFiles/data_structure.dir/build.make
 data_structure: CMakeFiles/data_structure.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/xanonymous/Desktop/data_structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable data_structure"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/xanonymous/Desktop/data_structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable data_structure"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/data_structure.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/data_structure.dir/main.cpp.o"
+  "CMakeFiles/data_structure.dir/adding_array_elements.cpp.o"
+  "CMakeFiles/data_structure.dir/hello_world.cpp.o"
   "data_structure"
   "data_structure.pdb"
 )

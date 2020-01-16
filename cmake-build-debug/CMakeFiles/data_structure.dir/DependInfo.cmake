@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/xanonymous/Desktop/data_structure/main.cpp" "/Users/xanonymous/Desktop/data_structure/cmake-build-debug/CMakeFiles/data_structure.dir/main.cpp.o"
+  "/Users/xanonymous/Desktop/data_structure/adding_array_elements.cpp" "/Users/xanonymous/Desktop/data_structure/cmake-build-debug/CMakeFiles/data_structure.dir/adding_array_elements.cpp.o"
+  "/Users/xanonymous/Desktop/data_structure/hello_world.cpp" "/Users/xanonymous/Desktop/data_structure/cmake-build-debug/CMakeFiles/data_structure.dir/hello_world.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
