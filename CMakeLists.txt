@@ -3,7 +3,7 @@ project(data_structure)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(data_structure hello_world.cpp adding_array_elements.cpp matrix_addition.cpp eight_queen_for_fun_xd.cpp matrix_multiplication.cpp sequential_search.cpp)
+add_executable(data_structure hello_world.cpp adding_array_elements.cpp matrix_addition.cpp eight_queen_for_fun_xd.cpp matrix_multiplication.cpp sequential_search.cpp binsrch.cpp)
 add_executable(adding_array_elements adding_array_elements.cpp)
 add_executable(hello_world hello_world.cpp)
 add_executable(matrix_addition matrix_addition.cpp)

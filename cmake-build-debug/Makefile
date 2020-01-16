@@ -218,6 +218,33 @@ adding_array_elements.cpp.s:
 	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/adding_array_elements.cpp.s
 .PHONY : adding_array_elements.cpp.s
 
+binsrch.o: binsrch.cpp.o
+
+.PHONY : binsrch.o
+
+# target to build an object file
+binsrch.cpp.o:
+	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/binsrch.cpp.o
+.PHONY : binsrch.cpp.o
+
+binsrch.i: binsrch.cpp.i
+
+.PHONY : binsrch.i
+
+# target to preprocess a source file
+binsrch.cpp.i:
+	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/binsrch.cpp.i
+.PHONY : binsrch.cpp.i
+
+binsrch.s: binsrch.cpp.s
+
+.PHONY : binsrch.s
+
+# target to generate assembly for a file
+binsrch.cpp.s:
+	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/binsrch.cpp.s
+.PHONY : binsrch.cpp.s
+
 eight_queen_for_fun_xd.o: eight_queen_for_fun_xd.cpp.o
 
 .PHONY : eight_queen_for_fun_xd.o
@@ -382,6 +409,9 @@ help:
 	@echo "... adding_array_elements.o"
 	@echo "... adding_array_elements.i"
 	@echo "... adding_array_elements.s"
+	@echo "... binsrch.o"
+	@echo "... binsrch.i"
+	@echo "... binsrch.s"
 	@echo "... eight_queen_for_fun_xd.o"
 	@echo "... eight_queen_for_fun_xd.i"
 	@echo "... eight_queen_for_fun_xd.s"

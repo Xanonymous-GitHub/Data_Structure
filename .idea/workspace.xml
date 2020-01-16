@@ -17,13 +17,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14ca12b2-1a3c-470b-8029-63d56c688a4a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/matrix_multiplication.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sequential_search.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/binsrch.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/data_structure.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/data_structure.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/data_structure.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/data_structure.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/data_structure.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/data_structure.dir/cmake_clean.cmake" afterDir="false" />
@@ -32,6 +29,7 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eight_queen_for_fun_xd.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eight_queen_for_fun_xd.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hello_world.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hello_world.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/matrix_addition.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/matrix_addition.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/matrix_multiplication.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/matrix_multiplication.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/data_structure.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/data_structure.cbp" afterDir="false" />
@@ -85,7 +83,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RunManager" selected="CMake Application.eight_queen_for_fun_xd">
     <configuration name="adding_array_elements" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="data_structure" TARGET_NAME="adding_array_elements" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="data_structure" RUN_TARGET_NAME="adding_array_elements">
@@ -151,7 +149,7 @@
       <updated>1579141700644</updated>
       <workItem from="1579141704705" duration="25000" />
       <workItem from="1579142139748" duration="1097000" />
-      <workItem from="1579143247804" duration="7797000" />
+      <workItem from="1579143247804" duration="9129000" />
     </task>
     <task id="LOCAL-00001" summary="setup clion runner">
       <created>1579146472688</created>
@@ -172,13 +170,19 @@
     <MESSAGE value="setup clion runner" />
     <MESSAGE value="matrix_addition.cpp" />
     <MESSAGE value="eight_queen_for_fun_xd.cpp" />
-    <option name="LAST_COMMIT_MESSAGE" value="eight_queen_for_fun_xd.cpp" />
+    <MESSAGE value="sequential_search" />
+    <option name="LAST_COMMIT_MESSAGE" value="sequential_search" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="383" y="65" key="CommitChangelistDialog2" timestamp="1579167690423">
+    <state x="396" y="120" key="#Notifications" timestamp="1579168088263">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
+    <state x="396" y="120" key="#Notifications/0.23.1792.1026@0.23.1792.1026" timestamp="1579168088263" />
+    <state x="383" y="65" key="CommitChangelistDialog2" timestamp="1579169507857">
+      <screen x="0" y="23" width="1792" height="1024" />
+    </state>
+    <state x="383" y="65" key="CommitChangelistDialog2/0.23.1792.1024@0.23.1792.1024" timestamp="1579169507857" />
     <state x="383" y="65" key="CommitChangelistDialog2/0.23.1792.1026@0.23.1792.1026" timestamp="1579167690423" />
     <state width="1740" height="266" key="GridCell.Tab.0.bottom" timestamp="1579148960836">
       <screen x="0" y="23" width="1792" height="1026" />
@@ -212,9 +216,10 @@
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
     <state width="1740" height="330" key="GridCell.Tab.1.right/0.23.1792.1026@0.23.1792.1026" timestamp="1579145834530" />
-    <state x="281" y="87" key="SettingsEditor" timestamp="1579143239288">
-      <screen x="0" y="23" width="1792" height="1026" />
+    <state x="314" y="77" key="SettingsEditor" timestamp="1579169251060">
+      <screen x="0" y="23" width="1792" height="1024" />
     </state>
+    <state x="314" y="77" key="SettingsEditor/0.23.1792.1024@0.23.1792.1024" timestamp="1579169251060" />
     <state x="281" y="87" key="SettingsEditor/0.23.1792.1026@0.23.1792.1026" timestamp="1579143239288" />
     <state x="396" y="213" key="Vcs.Push.Dialog.v2" timestamp="1579146501243">
       <screen x="0" y="23" width="1792" height="1026" />

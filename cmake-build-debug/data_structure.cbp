@@ -294,6 +294,9 @@
 			<Option target="adding_array_elements"/>
 			<Option target="data_structure"/>
 		</Unit>
+		<Unit filename="/Users/xanonymous/Desktop/data_structure/binsrch.cpp">
+			<Option target="data_structure"/>
+		</Unit>
 		<Unit filename="/Users/xanonymous/Desktop/data_structure/eight_queen_for_fun_xd.cpp">
 			<Option target="eight_queen_for_fun_xd"/>
 			<Option target="data_structure"/>
