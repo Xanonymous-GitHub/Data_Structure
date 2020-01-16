@@ -1,5 +1,6 @@
 /Users/xanonymous/Desktop/data_structure/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/xanonymous/Desktop/data_structure/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/xanonymous/Desktop/data_structure/cmake-build-debug/CMakeFiles/eight_queen_for_fun_xd.dir
 /Users/xanonymous/Desktop/data_structure/cmake-build-debug/CMakeFiles/adding_array_elements.dir
 /Users/xanonymous/Desktop/data_structure/cmake-build-debug/CMakeFiles/matrix_addition.dir
 /Users/xanonymous/Desktop/data_structure/cmake-build-debug/CMakeFiles/hello_world.dir

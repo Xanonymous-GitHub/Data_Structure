@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named eight_queen_for_fun_xd
+
+# Build rule for target.
+eight_queen_for_fun_xd: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 eight_queen_for_fun_xd
+.PHONY : eight_queen_for_fun_xd
+
+# fast build rule for target.
+eight_queen_for_fun_xd/fast:
+	$(MAKE) -f CMakeFiles/eight_queen_for_fun_xd.dir/build.make CMakeFiles/eight_queen_for_fun_xd.dir/build
+.PHONY : eight_queen_for_fun_xd/fast
+
+#=============================================================================
 # Target rules for targets named adding_array_elements
 
 # Build rule for target.
@@ -192,6 +205,36 @@ adding_array_elements.cpp.s:
 	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/adding_array_elements.cpp.s
 .PHONY : adding_array_elements.cpp.s
 
+eight_queen_for_fun_xd.o: eight_queen_for_fun_xd.cpp.o
+
+.PHONY : eight_queen_for_fun_xd.o
+
+# target to build an object file
+eight_queen_for_fun_xd.cpp.o:
+	$(MAKE) -f CMakeFiles/eight_queen_for_fun_xd.dir/build.make CMakeFiles/eight_queen_for_fun_xd.dir/eight_queen_for_fun_xd.cpp.o
+	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/eight_queen_for_fun_xd.cpp.o
+.PHONY : eight_queen_for_fun_xd.cpp.o
+
+eight_queen_for_fun_xd.i: eight_queen_for_fun_xd.cpp.i
+
+.PHONY : eight_queen_for_fun_xd.i
+
+# target to preprocess a source file
+eight_queen_for_fun_xd.cpp.i:
+	$(MAKE) -f CMakeFiles/eight_queen_for_fun_xd.dir/build.make CMakeFiles/eight_queen_for_fun_xd.dir/eight_queen_for_fun_xd.cpp.i
+	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/eight_queen_for_fun_xd.cpp.i
+.PHONY : eight_queen_for_fun_xd.cpp.i
+
+eight_queen_for_fun_xd.s: eight_queen_for_fun_xd.cpp.s
+
+.PHONY : eight_queen_for_fun_xd.s
+
+# target to generate assembly for a file
+eight_queen_for_fun_xd.cpp.s:
+	$(MAKE) -f CMakeFiles/eight_queen_for_fun_xd.dir/build.make CMakeFiles/eight_queen_for_fun_xd.dir/eight_queen_for_fun_xd.cpp.s
+	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/eight_queen_for_fun_xd.cpp.s
+.PHONY : eight_queen_for_fun_xd.cpp.s
+
 hello_world.o: hello_world.cpp.o
 
 .PHONY : hello_world.o
@@ -260,6 +303,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... eight_queen_for_fun_xd"
 	@echo "... adding_array_elements"
 	@echo "... matrix_addition"
 	@echo "... hello_world"
@@ -267,6 +311,9 @@ help:
 	@echo "... adding_array_elements.o"
 	@echo "... adding_array_elements.i"
 	@echo "... adding_array_elements.s"
+	@echo "... eight_queen_for_fun_xd.o"
+	@echo "... eight_queen_for_fun_xd.i"
+	@echo "... eight_queen_for_fun_xd.s"
 	@echo "... hello_world.o"
 	@echo "... hello_world.i"
 	@echo "... hello_world.s"

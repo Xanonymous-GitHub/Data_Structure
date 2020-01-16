@@ -53,6 +53,7 @@ CMAKE_BINARY_DIR = /Users/xanonymous/Desktop/data_structure/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/eight_queen_for_fun_xd.dir/all
 all: CMakeFiles/adding_array_elements.dir/all
 all: CMakeFiles/matrix_addition.dir/all
 all: CMakeFiles/hello_world.dir/all
@@ -61,6 +62,7 @@ all: CMakeFiles/data_structure.dir/all
 .PHONY : all
 
 # The main recursive "clean" target.
+clean: CMakeFiles/eight_queen_for_fun_xd.dir/clean
 clean: CMakeFiles/adding_array_elements.dir/clean
 clean: CMakeFiles/matrix_addition.dir/clean
 clean: CMakeFiles/hello_world.dir/clean
@@ -72,6 +74,33 @@ clean: CMakeFiles/data_structure.dir/clean
 preinstall:
 
 .PHONY : preinstall
+
+#=============================================================================
+# Target rules for target CMakeFiles/eight_queen_for_fun_xd.dir
+
+# All Build rule for target.
+CMakeFiles/eight_queen_for_fun_xd.dir/all:
+	$(MAKE) -f CMakeFiles/eight_queen_for_fun_xd.dir/build.make CMakeFiles/eight_queen_for_fun_xd.dir/depend
+	$(MAKE) -f CMakeFiles/eight_queen_for_fun_xd.dir/build.make CMakeFiles/eight_queen_for_fun_xd.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/xanonymous/Desktop/data_structure/cmake-build-debug/CMakeFiles --progress-num=8,9 "Built target eight_queen_for_fun_xd"
+.PHONY : CMakeFiles/eight_queen_for_fun_xd.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/eight_queen_for_fun_xd.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/xanonymous/Desktop/data_structure/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/eight_queen_for_fun_xd.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/xanonymous/Desktop/data_structure/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/eight_queen_for_fun_xd.dir/rule
+
+# Convenience name for target.
+eight_queen_for_fun_xd: CMakeFiles/eight_queen_for_fun_xd.dir/rule
+
+.PHONY : eight_queen_for_fun_xd
+
+# clean rule for target.
+CMakeFiles/eight_queen_for_fun_xd.dir/clean:
+	$(MAKE) -f CMakeFiles/eight_queen_for_fun_xd.dir/build.make CMakeFiles/eight_queen_for_fun_xd.dir/clean
+.PHONY : CMakeFiles/eight_queen_for_fun_xd.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/adding_array_elements.dir
@@ -107,7 +136,7 @@ CMakeFiles/adding_array_elements.dir/clean:
 CMakeFiles/matrix_addition.dir/all:
 	$(MAKE) -f CMakeFiles/matrix_addition.dir/build.make CMakeFiles/matrix_addition.dir/depend
 	$(MAKE) -f CMakeFiles/matrix_addition.dir/build.make CMakeFiles/matrix_addition.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/xanonymous/Desktop/data_structure/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target matrix_addition"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/xanonymous/Desktop/data_structure/cmake-build-debug/CMakeFiles --progress-num=12,13 "Built target matrix_addition"
 .PHONY : CMakeFiles/matrix_addition.dir/all
 
 # Build rule for subdir invocation for target.
@@ -134,7 +163,7 @@ CMakeFiles/matrix_addition.dir/clean:
 CMakeFiles/hello_world.dir/all:
 	$(MAKE) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/depend
 	$(MAKE) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/xanonymous/Desktop/data_structure/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target hello_world"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/xanonymous/Desktop/data_structure/cmake-build-debug/CMakeFiles --progress-num=10,11 "Built target hello_world"
 .PHONY : CMakeFiles/hello_world.dir/all
 
 # Build rule for subdir invocation for target.
@@ -161,12 +190,12 @@ CMakeFiles/hello_world.dir/clean:
 CMakeFiles/data_structure.dir/all:
 	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/depend
 	$(MAKE) -f CMakeFiles/data_structure.dir/build.make CMakeFiles/data_structure.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/xanonymous/Desktop/data_structure/cmake-build-debug/CMakeFiles --progress-num=3,4,5,6 "Built target data_structure"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/xanonymous/Desktop/data_structure/cmake-build-debug/CMakeFiles --progress-num=3,4,5,6,7 "Built target data_structure"
 .PHONY : CMakeFiles/data_structure.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/data_structure.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/xanonymous/Desktop/data_structure/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/xanonymous/Desktop/data_structure/cmake-build-debug/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/data_structure.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/xanonymous/Desktop/data_structure/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/data_structure.dir/rule
